@@ -1,4 +1,4 @@
-# UIC-Connect
+# UIC-Connect by Hina Khalid, Mosrour Tafadar and Khang Tuan Naguyen
 
 
 # Overview
