@@ -74,16 +74,11 @@ This apps can be use daily or weekly or monthly.  There are no requirement  how 
 
 # Wireframes 
 	
-	   
-	
-	
-
-
-
 [App Wireframe.pdf](https://github.com/mtafadar/UIC-Connect/files/7489925/App.Wireframe.pdf)
 
 
 
+![Screen Shot 2021-11-06 at 12 01 01 AM](https://user-images.githubusercontent.com/57551265/140598617-db04b533-e2d3-44cf-ad6a-f2cab65209e7.png)
 
 
 	
