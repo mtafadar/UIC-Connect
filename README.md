@@ -8,7 +8,23 @@ This is an app which is simple version of snapchat.  UIC-students can login/sign
 
 
 
+### 		App Evaluation
+
+#### •	Catagory:  Blogs/ Entertainment
+
+#### •	Mobile: This app  primarily developed for smartphones, but could be extended to  computers
 
 
+#### •	Story:  To connect the  UIC students  with freedom where they can post about their  daily life  activities. Moreover, they  can post their picture and  story about their classes. This app is open to all students 
+
+
+
+#### •	Audience:  This app is  made for specific audience. In order to use the app they must be  UIC students/alumni. 
+
+
+#### •	Audience:
+
+
+	
 
 
