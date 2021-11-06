@@ -91,15 +91,16 @@ This apps can be use daily or weekly or monthly.  There are no requirement  how 
 | image.        | File.         | Story (image) that user posts.	       |
 | caption       | String        | Story (image) caption by author	       |
 | createdAt     | DateTime      | date when post is created (default field).   |
-| Content Cell  | Content Cell  |				               |
+				               |
 
 ## Networking
 
 List of network requests by screen
 
-• Home Feed Screen
-	•(Read/GET) Query all posts where user is author
-	****************************************
+• Home Feed Screen:
+	•(Read/GET) Query all posts where user is author.
+	
+	
         let query = PFQuery(className:"Post")
 	query.whereKey("author", equalTo: currentUser)
 	query.order(byDescending: "createdAt")
@@ -111,16 +112,18 @@ List of network requests by screen
   	// TODO: Do something with posts...
   	 }
        }
-       ******************************************
-	•(Create/POST) Create a new comment on a story
-	•(Delete) Delete existing comment or story
-	•(Create/POST) Create a new comment on a story
-	•(Delete) Delete existing comment or story 
-• Create Post Story Screen
-	•(Create/POST) Create a new post object
-• Profile Screen
-	•(Read/GET) Query logged in user object
-	•(Update/PUT) Update user profile image
+       
+•(Create/POST) Create a new comment on a story.
+	•(Delete) Delete existing comment or story.
+	•(Create/POST) Create a new comment on a story.
+	•(Delete) Delete existing comment or story.
+	
+• Create Post Story Screen:
+	•(Create/POST) Create a new post object.
+	
+• Profile Screen:
+	•(Read/GET) Query logged in user object.
+	•(Update/PUT) Update user profile image.
 
 
 	
