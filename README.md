@@ -81,6 +81,48 @@ This apps can be use daily or weekly or monthly.  There are no requirement  how 
 ![Screen Shot 2021-11-06 at 12 01 01 AM](https://user-images.githubusercontent.com/57551265/140598617-db04b533-e2d3-44cf-ad6a-f2cab65209e7.png)
 
 
+## Schema
+
+### User Story
+
+| Property.     | Type.         | Description.                                 |
+| ------------- | ------------- | -------------------------------------------- |
+| userId.       | String        | unique id for the user post (default field). |	     
+| image.        | File.         | Story (image) that user posts.	       |
+| caption       | String        | Story (image) caption by author	       |
+| createdAt     | DateTime      | date when post is created (default field).   |
+| Content Cell  | Content Cell  |				               |
+
+## Networking
+
+List of network requests by screen
+
+• Home Feed Screen
+	•(Read/GET) Query all posts where user is author
+	****************************************
+        let query = PFQuery(className:"Post")
+	query.whereKey("author", equalTo: currentUser)
+	query.order(byDescending: "createdAt")
+	query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
+  	if let error = error { 
+    	  print(error.localizedDescription)
+  	} else if let posts = posts {
+      	print("Successfully retrieved \(posts.count) posts.")
+  	// TODO: Do something with posts...
+  	 }
+       }
+       ******************************************
+	•(Create/POST) Create a new comment on a story
+	•(Delete) Delete existing comment or story
+	•(Create/POST) Create a new comment on a story
+	•(Delete) Delete existing comment or story 
+• Create Post Story Screen
+	•(Create/POST) Create a new post object
+• Profile Screen
+	•(Read/GET) Query logged in user object
+	•(Update/PUT) Update user profile image
+
+
 	
 
 
