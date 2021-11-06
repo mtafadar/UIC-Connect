@@ -12,7 +12,7 @@ This is an app which is simple version of snapchat.  UIC-students can login/sign
 
 
 
-### 		App Evaluation
+### 	App Evaluation
 
 - **Category:**  Blogs/ Entertainment
 
@@ -96,10 +96,11 @@ This is an app which is simple version of snapchat.  UIC-students can login/sign
 
 List of network requests by screen
 
-• Home Feed Screen:
-	•(Read/GET) Query all posts where user is author.
-	
-	
+* Home Feed Screen:
+    * (Read/GET) Query all posts where user is author.
+    
+    
+   ```
         let query = PFQuery(className:"Post")
 	query.whereKey("author", equalTo: currentUser)
 	query.order(byDescending: "createdAt")
@@ -111,18 +112,19 @@ List of network requests by screen
   	// TODO: Do something with posts...
   	 }
        }
+   ```
        
-•(Create/POST) Create a new comment on a story.
-	•(Delete) Delete existing comment or story.
-	•(Create/POST) Create a new comment on a story.
-	•(Delete) Delete existing comment or story.
+* (Create/POST) Create a new comment on a story.
+    * (Delete) Delete existing comment or story.
+    * (Create/POST) Create a new comment on a story.
+    * (Delete) Delete existing comment or story.
 	
-• Create Post Story Screen:
-	•(Create/POST) Create a new post object.
+*  Create Post Story Screen:
+    * (Create/POST) Create a new post object.
 	
-• Profile Screen:
-	•(Read/GET) Query logged in user object.
-	•(Update/PUT) Update user profile image.
+* Profile Screen:
+	* (Read/GET) Query logged in user object.
+	* (Update/PUT) Update user profile image.
 
 
 	
