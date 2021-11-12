@@ -47,6 +47,13 @@ This is an app which is simple version of snapchat.  UIC-students can login/sign
 * When a fellow user posted nice picture or thought provoking ideas, the user should have freedom to reply to the story with emoji or text.
 * User wants to chat with other person and by selecting message they both will be able to communicate with each other. 
 
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='walkthrough1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Screen  ArcheTypes
 
